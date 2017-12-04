@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.lits.cenourapp"
+        version="1.0.0">
+    
+    <icon src="icon.png" />
+    <name>Só de Cenoura</name>
+
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+
+    <description>Menu do restaurante Só de Cenoura.</description>
+
+    <author href="http://fernandomac.org" email="qualquer@fernandomac.org">
+        Fernando Machado
+    </author>
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <platform name="android" />
+
+</widget>
